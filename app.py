@@ -11,7 +11,7 @@ st.sidebar.title("Predicción de diabetes en mujeres de 21 años o mas.")
 st.markdown("Esta aplicación es un Streamlit dashboard el cual analiza la informacion de prediccion de la enfermedad de diabetes en mujeres mayores a 21 años.")
 st.sidebar.markdown("Esta aplicación es un Streamlit dashboard el cual analiza la informacion de prediccion de la enfermedad de diabetes en mujeres mayores a 21 años.")
 
-st.image("/home/antonio/Documentos/QuintoSemestre/Mineria/Proyecto/img/diabetes.jpg")
+st.image("/home/antonio/git/Diabetics-prediction/img/diabetes.jpg")
 st.markdown("La diabetes es una enfermedad en la que los niveles de glucosa (azúcar) de la sangre están muy altos. La glucosa proviene de los alimentos que consume. La insulina es una hormona que ayuda a que la glucosa entre a las células para suministrarles energía. En la diabetes tipo 1, el cuerpo no produce insulina. En la diabetes tipo 2, la más común, el cuerpo no produce o no usa la insulina de manera adecuada. Sin suficiente insulina, la glucosa permanece en la sangre.")
 
 
