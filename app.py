@@ -16,7 +16,7 @@ st.markdown("La diabetes es una enfermedad en la que los niveles de glucosa (az√
 
 
 
-DATA_URL = ("/home/antonio/git/Diabetics-prediction/Dataset/diabetes2.csv")
+DATA_URL = ("Dataset/diabetes2.csv")
 
 @st.cache(persist = True)
 def load_data():
@@ -54,7 +54,7 @@ if not st.sidebar.checkbox("Mostrar", True):
         st.text("8.   Edad (Age)")
         st.text("9.   Resultado (Outcome)")
     elif select == 'Mapa coronavirus':
-        DATA_URL2 = ("/home/antonio/git/Diabetics-prediction/Dataset/coronavirus.csv")
+        DATA_URL2 = ("Dataset/coronavirus.csv")
 
         @st.cache(persist = True)
         def load_data():
